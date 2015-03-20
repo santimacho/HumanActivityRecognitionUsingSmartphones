@@ -1,10 +1,10 @@
-# Human Activity Recognition UsingS martphones
+# Human Activity Recognition Using Smartphones
 Course project for 'Getting and Cleaning Data' Coursera course.
 
 From the project instructions: 
 _The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis._
 
-The [data][url_data] used for this project comes from the UCI Machine Learning Repository:[Human Activity Recognition Using Smartphones Data Set][uci_dataset] (1), and consist in recordings of 30 subjtects performing daily living activities while carrying an smartphone   with embedded inertial sensors.
+The [data][url_data] used for this project comes from the UCI Machine Learning Repository:[Human Activity Recognition Using Smartphones Data Set][uci_dataset] (1), and consist in recordings of 30 subjects performing daily living activities while carrying an smartphone   with embedded inertial sensors.
 
 There are 10299 observations, as every subject perform every activity between 36 and 95 times. See next the table of activities versus subjects:   
 
@@ -48,7 +48,9 @@ UCI HAR Dataset\activity_labels.txt
                       \X_train.txt
                       \y_train.txt
 ```
-The script needs to use the plyr and reshape2 R packages, please install if are not already available.  
+Please, unzip the data and copy: actitivity_labels.txt, features.txt, subject_test.txt, X_test.txt, y_test.txt, subject_train.txt, X_train.txt and y_train.txt to the working directory.
+
+The uses the plyr and reshape2 R packages, please install if are not already available.  
 
 Read the script result file ("tidydf_wide.txt") with:
 
