@@ -23,7 +23,7 @@ There are 10299 observations, as every subject perform every activity between 36
 [1] 10299
 ```
 
-The initial datasets has 561 variables coming from the smartphone inertial sensors, but only variables about the mean and the standard deviation are kept: 79 variables. Check the [codebook](CodeBook.md) in this repository).
+The initial datasets has 561 variables coming from the smartphone inertial sensors, but only variables about the mean and the standard deviation are kept: 79 variables. Check the [codebook](CodeBook.md) in this repository.
 
 ## run_analysis.R
 
@@ -48,9 +48,9 @@ UCI HAR Dataset\activity_labels.txt
                       \X_train.txt
                       \y_train.txt
 ```
-Please, unzip the data and copy: actitivity_labels.txt, features.txt, subject_test.txt, X_test.txt, y_test.txt, subject_train.txt, X_train.txt and y_train.txt to the working directory.
+Please, unzip the data and copy: `actitivity_labels.txt, features.txt, subject_test.txt, X_test.txt, y_test.txt, subject_train.txt, X_train.txt` and `y_train.txt` to the working directory.
 
-The uses the plyr and reshape2 R packages, please install if are not already available.  
+This script uses plyr and reshape2 R packages, please install if are not already available.  
 
 Read the script result file ("tidydf_wide.txt") with:
 
