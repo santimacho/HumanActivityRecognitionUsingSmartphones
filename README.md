@@ -23,7 +23,7 @@ There are 10299 observations, as every subject perform every activity between 36
 [1] 10299
 ```
 
-The initial datasets has 561 variables coming from the smartphone inertial sensors, but only variables about the mean and the standard deviation are kept: 79 variables. Check the codebook (CodeBook.md in this repository).
+The initial datasets has 561 variables coming from the smartphone inertial sensors, but only variables about the mean and the standard deviation are kept: 79 variables. Check the [codebook](CodeBook.md) in this repository).
 
 ## run_analysis.R
 
