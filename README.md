@@ -4,7 +4,7 @@ Course project for 'Getting and Cleaning Data' Coursera course.
 From the project instructions: 
 _The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis._
 
-The [data][url_data] used for this project comes from the UCI Machine Learning Repository:Human Activity Recognition Using Smartphones Data Set, and consist in recordings of 30 subjtects performing daily living activities while carrying an smartphone   with embedded inertial sensors.
+The [data][url_data] used for this project comes from the UCI Machine Learning Repository:[Human Activity Recognition Using Smartphones Data Set][uci_dataset] (1), and consist in recordings of 30 subjtects performing daily living activities while carrying an smartphone   with embedded inertial sensors.
 
 There are 10299 observations, as every subject perform every activity between 36 and 95 times. See next the table of activities versus subjects:   
 
@@ -56,5 +56,8 @@ Read the script result file ("tidydf_wide.txt") with:
 tidydf.wide <- read.table("tidydf_wide.txt", header=TRUE)
 ```
 
+#### Reference:
+1. Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
 
 [url_data]: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+[uci_dataset]:http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
