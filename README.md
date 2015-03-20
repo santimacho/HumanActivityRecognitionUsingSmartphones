@@ -8,7 +8,7 @@ The [data][url_data] used for this project comes from the UCI Machine Learning R
 
 There are 10299 observations, as every subject perform every activity between 36 and 95 times. See next the table of activities versus subjects:   
 
-```
+```R
 > table(df$activity, df$subject)
                     
                       1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
@@ -52,10 +52,8 @@ The script needs to use the plyr and reshape2 R packages, please install if are 
 
 Read the script result file ("tidydf_wide.txt") with:
 
-```
-
+```R
 tidydf.wide <- read.table("tidydf_wide.txt", header=TRUE)
-
 ```
 
 
